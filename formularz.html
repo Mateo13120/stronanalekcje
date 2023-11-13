@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ </head>
+ <body background="metin.jpg"><font color="White">
+    <center><h1>ANKIETA NA TEMAT RYBAKOW</h1></center>
+    <img src="metin2.jpg" width="600" align="right">
+    Ankieta ma na celu zebranie danych diagnostycznych na temat rybakow w polsce
+<br><form>
+Na wstępie podaj swoje imię oraz nazwisko: <input type="text" name="imie" value="Podaj imie i nazwisko" size="20" maxlength="30"><br>
+<br>
+Wybierz region z którego pochodzisz:<br>
+<input type="radio" name="region" value="chunjo">chunjo<br>
+<input type="radio" name="region" value="shinsoo">shinsoo<br>
+<input type="radio" name="region" value="jinno">jinno<br>
+<br>
+Ile ryb już złowiłeś? Wybierz poprawną odpowiedź:
+<select name="ryby">
+	<option>&lt; 500k</option>
+	<option>500k - 1kk</option>
+    <option>1kk - 5kkk</option>
+	<option>&gt; 5kkk</option>
+</select><br>
+
+<br>
+Jakimi kolorami wędek łowisz? Wybierz podane kolory:<br>
+<input type="checkbox" name="kolory" value="szary">szary<br>
+<input type="checkbox" name="kolory" value="czerwony">czerwony<br>
+<input type="checkbox" name="kolory" value="zielony">zielony<br>
+<input type="checkbox" name="kolory" value="bialy">biały<br>
+<input type="checkbox" name="kolory" value="czarny">czarny<br>
+<br><br>
+Opisz swoje doświadczenia z gry na serwerze<br>
+<textarea name="ja" cols="40" rows="5">
+    Rozwiń swoją myśl do min. 250 słów
+</textarea><br>
+Pochwal się swoją największą zdobyczą:<br><input type="file" name="plik">
+<br><br><br>
+
+Jeżeli się rozmyśliłeś możesz rozpocząć od nowa
+<input type="reset" value="Reset">
+<br>
+<br>
+Jeżeli chcesz odebrać swoją nagrodę zaloguj się:<br>
+Login: <input type="password" name="haslo" minlength="8" size="14" ><br>
+Hasło:<input type="password" name="haslo" minlength="8" size="14"><br>
+<input type="submit" value="Zaloguj">
+</form>
+</body>
+</html>
