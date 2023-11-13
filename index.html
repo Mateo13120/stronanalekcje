@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="descrition" content="opis zawartości strony, np. jak usmażyć dobre placki">
+ <meta name="keywords" content="placki, smażenie, dobre placki, pyszne placki">
+ <meta name="author" content="imie i nazwisko autora">
+ <title>Wstęp do stron WWW - 4a T</title>
+ </head>
+<body bgcolor="white" background=>
+<header>
+aooo
+<!--nagłówek-->
+</header>
+<!--część zasadnicza strony-->
+<p>
+Kilka znaków specjalnych:<br> 
+</p>
+<br>&euro;
+&reg;<br>
+&copy; <br>
+<p>
+A teraz coś o sobie:<br>
+</p>
+AND ROTATE<br>
+ul. jajo 10<br>
+00 - 01 Majonez<br><br>
+studzienka - czyszcze@ie
+<div>
+Blok div nr 1
+</div>
+<div>
+Blok div nr 2
+</div>
+<div>
+Blok div nr 3
+</div>
+<h1>
+Tytuł pierwszego stopnia
+</h1>
+<h6>
+Tytuł szóstego stopnia
+</h6>
+<font size="3">
+Tekst napisany wartością 3, standard.
+</font><br>
+<font size="7">
+Tekst napisany wartością 7, max.
+</font><br>
+<font size="1">
+Tekst napisany wartością 1, min.
+</font><br>
+<font color="red">
+Tekst napisany kolorem czerwonym
+</font><br>
+<font color="#1BCE11">
+tekst napisany kolorem zielonym w zapisie hex
+</font><br>
+<font face="Arial, Tahoma">
+tekst napisany czcionka Arial, (w rezerwie Tahoma).
+</font><br>
+<font face=' Times New Roman'>
+tekst napisany czcionką Times New Roman
+</font><br>
+<b>
+tekst pogrubiony
+</b>
+<u>
+tekst podkreslony
+</u>
+<i>
+tekst pochylony - kursywa
+</i>
+<strike>
+tekst przekreslony
+</strike>
+<sup>
+indeks górny
+</sup>
+<sub>
+indeks dolny
+</sub>
+<pre>
+to 
+jest     Tekst
+		preformatowany
+	Jak 			go 			napiszesz,
+						tak się wy ś wi e t li .
+</pre>
+<center><h1><i>
+czas na zaproszenie.
+</i></h1></center>
+<p>
+<center><h1> Listy w HTML </h1></center>
+</p>
+<ul type="square">
+<li> czerwony </li>
+<li> niebkieski </li>
+<li> zielony </li>
+</ul>
+<ol type="a" start="5">
+<li> Tomek </li>
+<li> Patryk</li>
+<li> Kamil</li>
+<li value="15"> Wiktore</li>
+<li> Patrycja</li>
+</ol>
+<center><h1> Obrazy i multimedia
+</h1></center>
+<a name="motory">Motory</a>
+<img src="motor.jpg" alt="niebieski motor" width="500" align="right">
+<marquee behavior="alternate" bgcolor="red" scrollamount="50"><img src="motor.jpg" width="100"> latajacy tekst.,
+</marquee>
+<bgsound src="Alarm01.wav" volume="-5000">
+<embed src="blus.wma">
+<center><h1>Tabele</h1></center>
+<table border="5" cellpadding="15" cellspacing="10" width="500" height="100" bgcolor="red">
+<caption align="right"> Przykładowa tabela</caption>
+<tr bgcolor="green"><th>Kolumna nr 1 </th><th>Kolumna nr 2</th><th>Kolumna nr 3</th></tr>
+<tr><td>komórka 1.1 w pierwszym wierszu</td><td bgcolor="blue">komórka 1.2 w drugim wierszu</td><td> komórka 1.3 w trzecim wierszu</td></tr>
+<tr><td>komórka 2.1</td><td>komórka 2.2</td><td bordercolor="yellow">komórka 2.3</td></tr>
+<tr><td colspan="2">komórka 3.1 i komórka 3.2</td><td rowspan="2" background="magical.jpg"> komorka 3.3 </td></tr>
+<tr><td >komórka 4.1</td><td>komórka 4.2</td></tr>
+</table>
+<center><h1>Odsyłacze</h1></center>
+<a href="tabele.html">Link do ptoszka</a><br>
+<a href="#motory">Skocz do motorów</a>
+<p> Zapraszam do:</p>
+<ul>
+	<li><a href="https://www.google.pl">Skocz do google</li>
+	<li><a href="https://www.onet.pl">Skocz do oneta</a></li>
+	<li><a href="https://www.wp.pl" target="blank">Skocz do wp</a></li>
+	<li><a href="mailto: ja@wp.pl">Napisz do mnie</a></li>
+	<li><a href="motor.jpg">Pobierz moj motor</a></li>
+	<li><a href="alarm01.wav">Pobierz moj alarm</a></li>
+</ul>
+<p>odsyłacz graficzny</p>
+<a href="https://www.pogoda.pl" target="_blank">
+	<img src="zima.jpg" alt="brak obrazu" width="400">
+</a>
+<p></p>
+<img src="magical.jpg" usemap="#auto">
+<p>Następnie na obrazku, naszej mapie, wyznaczamy obszary za pomocą shape="circle" lub "rect" lub "poly"</p>
+<map id="auto" name="kolo">
+	<area shape="circle" coords="109,37,15" href="https://www.youtube.com/watch?v=8bqJ6LYBqrs" target="_blank">
+	<area shape="rect" coords="80,40,140,110" href="https://www.blacharz.pl">
+	<area shape="poly" coords="2,28,4,96,35,42" href="https://www.youtube.com/watch?v=vzRNBNl9xWk&list=PLSOSUGbqtkSrf6NTqp2uvNYKGwqYhoW3V&index=13">
+</map>
+<center><h1>Formularze</h1></center>
+<form>
+Podaj imię:<input type="text" name="imie" value="Szymon" size="3" maxlength="10" readonly="readonly" disabled="disabled">
+<br>
+Podaj hasło:<input type="password" name="haslo" minlength="8" size="14"><br>
+Podaj swoje zainteresowania: <br>
+<input type="checkbox" name="hobby" value="muzyka">muzyka<br>
+<input type="checkbox" name="hobby" value="sport">sport<br>
+<input type="checkbox" name="hobby" value="film">film<br>
+<input type="checkbox" name="hobby" value="nauka">nauka<br>
+<input type="checkbox" name="hobby" value="ryby">wędkarstwo<br>
+Podaj swoje wykształcenie: <br>
+<input type="radio" name="wyksz" value="brak">brak<br>
+<input type="radio" name="wyksz" value="pods">podstawowe<br>
+<input type="radio" name="wyksz" value="sred">średnie<br>
+<input type="radio" name="wyksz" value="wyz"> wyższe<br>
+Podaj wiek: <br><br>
+<select name="wiek">
+	<option>&lt; 18</option>
+	<option>18 - 21</option>
+	<option>&gt; 21</option>
+</select><br>
+Opisz siebie....<br>
+<textarea name="ja" cols="40" rows="5">
+	napisz coś o sobie
+</textarea><br>
+Wrzuć zdjęcie:<input type="file" name="plik">
+wyczyść formularz<input type="reset" value="Wyczyść">
+<br>
+</form>
+<center><h1>Ramki</h1></center>
+
+<footer>
+<!-- stopka-->
+</footer>
+</body>
+</html>
